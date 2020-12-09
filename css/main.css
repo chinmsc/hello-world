@@ -3,15 +3,24 @@ body {
     padding: 0;
     margin: 0;
 }
+div {
+    box-sizing: border-box ;
+}
 header {
-    background: url(../hello-world/images/background/header.png) no repeat center top / cover;
-height: 600px;
+    background: url(../images/background/header.png) no repeat center top / cover;
+    height: 600px;
 }
 .container {
 width: 950px;
-
 margin: 0 auto;
+
 }
 .logo {
-
+margin-top: 80;
+}
+.titles__first{
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    
 }
