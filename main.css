@@ -1,3 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
 header {
     background: url(../hello-world/images/background/header.png) no repeat center top / cover;
+height: 600px;
 }
