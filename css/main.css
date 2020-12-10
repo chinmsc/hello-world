@@ -23,7 +23,7 @@ margin: 0 auto;
 
 }
 .logo {
-    
+
 margin-top: 30px;
 
 
@@ -76,3 +76,66 @@ h3 {
     margin-top: 30px;
 }
 
+.services {
+background-color: black;
+margin-top: 0px;
+height: 450px;
+}
+.services__items {
+    width: 300px;
+    float: left;
+    text-align: center;
+    background-color: black;
+
+}
+.services__items h4 {
+color: white;
+ font-size: 25px;   
+ margin-bottom: 100px;
+ 
+
+}
+.services__items p {
+    color: green;
+    margin-top: 10px;
+}
+.services__items p1 {
+    color: white;
+    margin-top: auto;
+}
+.services__items :last-child {
+    float: none;
+    
+}
+#banner  {
+    background: url(../images/background/banner.png) no-repeat center top / cover;
+    height: 500px;
+    background-color: black;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-top: auto;
+    
+}
+h5{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 290px;
+
+}
+#banner p{
+    color: white;
+
+}
+#laptop {
+    background: url(../images/laptop.png) no-repeat center top / cover;
+    height: 900px;
+    background-color: black;
+    width: 100%;
+}
+h6 {
+    color: rgb(40, 180, 52);
+    font-weight: bold;   
+    text-align: center;
+}
