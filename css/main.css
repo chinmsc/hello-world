@@ -23,7 +23,8 @@ margin: 0 auto;
 
 }
 .logo {
-
+margin: 0px auto;
+width: 155px;
 margin-top: 30px;
 
 
@@ -134,8 +135,24 @@ h5{
     background-color: black;
     width: 100%;
 }
-h6 {
+h3 {
     color: rgb(40, 180, 52);
     font-weight: bold;   
     text-align: center;
+}
+.icons img {
+    float: left;
+    margin-top: 40px;
+    height: 105px;
+}
+.icons__item{
+    width: 230px;
+    float: left;
+    text-align: center;
+
+}
+.icons__item p{
+    color: white;
+    font-size: 14px;
+    
 }
