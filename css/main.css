@@ -153,8 +153,11 @@ h3 {
 .icons__item{
    margin: 0 auto;
     width: 230px;
-    
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .icons__item p{
