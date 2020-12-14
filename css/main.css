@@ -146,6 +146,7 @@ h3 {
     height: 105px;
 }
 .icons__item{
+   
     width: 230px;
     float: left;
     text-align: center;
@@ -154,5 +155,7 @@ h3 {
 .icons__item p{
     color: white;
     font-size: 14px;
+width: 135px;
+margin-top: 30px;
     
 }
