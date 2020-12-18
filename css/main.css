@@ -242,7 +242,7 @@ h3 {
     width: 600px;
     background: gray;
     padding: 20%;
-    transform: translate(-50$, -50$);
+    transform: translate(-50%, -50%);
 
 }
 
