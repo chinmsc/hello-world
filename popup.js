@@ -1,4 +1,4 @@
-$('.open-popup').click(function(e){
+$('.open-popup').click(function(e) {
 e.preventDefault();
     $('.popup-bg').fadein(600);
 });
