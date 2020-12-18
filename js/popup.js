@@ -1,7 +1,7 @@
-$('.open-popup').click(function(e) {
-e.preventDefault();
-    $('.popup-bg').fadein(600);
-});
-$('.close-popup').click(function){
-    $('.popup-bg').fadein(600);
-});
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }
