@@ -1,4 +1,7 @@
-$('.open-popup').click(function(e) {
-e.preventDefault();
-    $('.popup-bg').fadeIn(600);
-});
+function openForm() {
+    document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+  }

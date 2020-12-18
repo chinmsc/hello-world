@@ -34,7 +34,7 @@
             </ul>
           </div>
         </div>
-        <a class="button open-popup" href="#">CLAIM 25% BONUS*</a>
+        <a class="button myForm" href="#">CLAIM 25% BONUS*</a>
         
         <h2>
           Your capital is at risk
@@ -119,11 +119,22 @@
     <div class="container">
 
     </div>
-    <div class="popup-bg">
-      <div class="popup">
-        <img class="close-popup" src="images/close.png" alt="icon">
-        <p>какой-то текст</p>
-      </div>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+        <h1>Login</h1>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+    
+        <button type="submit" class="btn">Login</button>
+        <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+  
+    
     </div>
   </footer>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
